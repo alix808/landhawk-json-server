@@ -10,6 +10,9 @@ export const StyledSpinner = styled.div`
   &:before {
     content: '';
     box-sizing: border-box;
+    position: absolute;
+    top: ${(props) => props.top}px;
+    right: ${(props) => props.right}px;
     width: 25px;
     height: 25px;
     border-radius: 50%;
